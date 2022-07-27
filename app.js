@@ -1,21 +1,17 @@
-const letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",];
+var arr = [10,20,30,40,50,60,70,80,90,100];
 
-function left([], b){}
+function pushArray (paramArr, val){
+    paramArr.push(val);
+    return paramArr;
+}
+console.log([70,80], 5000);
 
-left.push("a");
-
-console.log(left);
-
-
-function right([c]){}
-
-    right.splice("","")
-    return [c];
-    console.log(right);
+let months = ["May","Thursday", "Friday"];
+let days = months.splice(2);
 
 
-function up([d]){}
+console.log(days); 
 
-    up.slice(f,g)
-    return ;
-    console.log(up);
+const animals = ['jaguar', 'kangaroo', 'owl'];
+
+console.log(animals.slice(2));
